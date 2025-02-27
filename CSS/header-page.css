@@ -1,0 +1,139 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+
+
+
+
+
+
+
+/* Шрифт сайта */
+body {
+  background-color: var(--color-white);
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+.header-page{
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    width: 97%;
+    z-index: 5;
+    background-color:  #DCDCD9;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+.header-page_container{
+    display: flex;
+    justify-content: space-between;  
+    height: 50px; 
+}
+
+.header-page_end{
+    display: flex;
+    text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.header-page_start{
+    display: flex;
+    text-align: center;
+justify-content: center;
+align-items: center;
+max-width: 200px;
+width: 100%;
+    
+}
+
+.header-page_mid{
+    display: flex;
+    text-align: center;
+justify-content: center;
+align-items: center;
+max-width: 220px;
+width: 100%;
+
+}
+
+.header-page_end{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+}
+
+.header-page_nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.sitename{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.logo{
+    margin-left: auto;
+    margin-right: 20px;
+    background-image: url(../img/p.png);
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    transition: 0.25s ease;
+  }
+
+
+  .hb{
+    background: none;
+  }
+
+  .start{
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: 70px;
+    height: 30px;
+  }
