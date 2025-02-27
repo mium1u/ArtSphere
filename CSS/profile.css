@@ -123,10 +123,11 @@ margin-top: 10px;
 
 
 
-.posts{
-    text-align: left;
-    justify-content: left;
-    align-items:start;
-    display: flex;
-    flex-direction: column;
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Колонки шириной минимум 250px */
+    gap: 20px; /* Расстояние между карточками */
+    width: 100%; /* Занимает всю доступную ширину */
+    padding: 20px; /* Отступы внутри контейнера */
+    text-align: left; /* Выравнивание текста слева */
 }
