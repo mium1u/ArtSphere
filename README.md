@@ -17,3 +17,7 @@
 ![Screenshot_3](https://github.com/user-attachments/assets/573775bc-6ce4-4c0d-894b-e029fab27be4)
 
 ![Screenshot_4](https://github.com/user-attachments/assets/dbd9eb3b-bb51-4b02-a73c-2f77ae29609c)
+
+# Висновок
+
+Під час практики був доданий важливий функціонал для сайту, покращенний інтерефейс для зручного та інтуїтивного користування та виправлені помилки з відображенням інформації.
